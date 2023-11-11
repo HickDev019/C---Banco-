@@ -58,8 +58,6 @@ namespace Banco
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
-            
              double valor = Convert.ToDouble(textBox1.Text);
              if (valor > 0)
             {  
@@ -73,7 +71,9 @@ namespace Banco
             {
                 MessageBox.Show("Por favor, digite um numero valido!");
             }
-    }
+
+
+        }
         private void LabelBotaoSaque_Click(object sender, EventArgs e)
         {
             double valor = Convert.ToDouble(textBox2.Text);
